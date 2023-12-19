@@ -1,0 +1,369 @@
+/* Header */
+.header {
+  background-color: #BDD7EE;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo-container img {
+  width: 240px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.btn-logout {
+  width: 160px;
+  height: 70px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 1rem;
+  color: #7A34D8;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid;
+  border-color: #7A34D8;
+  padding: 2px;
+}
+
+.btn-logout span {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.btn-logout img {
+  width: 60px;
+  height: 60px;
+}
+
+.logo-container h2 {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #203864;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* SecondHeader */
+.home-second-header,
+.inventory-second-header,
+.add-product-second-header,
+.update-product-second-header,
+.sales-second-header,
+.add-sales-second-header {
+  background-color: #DEEBF7;
+}
+
+.inventory-second-header,
+.add-product-second-header,
+.update-product-second-header,
+.sales-second-header,
+.add-sales-second-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-second-header h3,
+.inventory-second-header h3,
+.add-product-second-header h3,
+.update-product-second-header h3,
+.sales-second-header h3,
+.add-sales-second-header h3 {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2E75B6;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.home-second-header h3 {
+  margin-left: 50px;
+}
+
+.home-link,
+.inventory-link,
+.sales-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2E75B6;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.different-pages-links {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+/* LoginPage & CreateUserPage */
+.login-form,
+.create-user-form {
+  background-color: #DAE3F3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-top: 10%;
+  margin-left: 35%;
+  width: 25%;
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.create-user-form {
+  height: 600px;
+}
+
+.login-form img,
+.create-user-form img {
+  width: 90%;
+  height: 80%;
+  margin-left: 20px;
+}
+
+.login-form header h2,
+.create-user-form header h2 {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #203864;
+  text-align: center;
+}
+
+.login-details,
+.create-user-details {
+  height: 50px;
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-input-box,
+.password-input-box,
+.first-name-input-box,
+.last-name-input-box,
+.status-input-box,
+.role-input-box {
+  font-size: 1.2rem;
+  padding: 2px;
+  margin: 5px;
+}
+
+.btn-login,
+.btn-create-user {
+  font-size: 1.2rem;
+  padding: 5px;
+  margin-top: 10px;
+  width: 200px;
+  background-color: #5C61F0;
+  color: white;
+}
+
+/* Homepage */
+.home-welcome-message,
+.home-quick-links {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.home-welcome-message p {
+  font-size: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  #203864;
+  text-transform: capitalize;
+}
+
+.home-welcome-message span {
+  text-transform: uppercase;
+}
+
+.home-quick-links p {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7A34D8;
+  font-weight: bolder;
+  font-size: 2rem;
+  margin: 20px;
+}
+
+.home-quick-links button {
+  width: 200px;
+  height: 200px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #203864;
+  font-weight: bolder;
+  margin: 30px;
+}
+
+/* Inventory data page; Sales transactions page */
+.inventory-table,
+.sales-table {
+  width: 100vw;
+  height: 50vh;
+  padding: 20px; 
+}
+
+.inventory-table thead th,
+.sales-table thead th {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  background-color: #4472C4;
+  color: white;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.inventory-table tbody tr td,
+.sales-table tbody tr td {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.inventory-table tbody tr:nth-child(even),
+.sales-table tbody tr:nth-child(even) {
+  background-color: #E9EBF5;
+}
+
+.inventory-table tbody tr:nth-child(odd),
+.sales-table tbody tr:nth-child(odd) {
+  background-color: #CFD5EA;
+}
+
+.btn-update,
+.btn-delete {
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 2px;
+  font-weight: bold;
+}
+
+.btn-update {
+  background-color: #384ef4;
+}
+
+.btn-delete {
+  background-color: #FF0000;
+}
+
+.btn-add-product,
+.btn-add-sales-transaction {
+  margin-left: 80%;
+}
+
+.btn-add-product,
+.btn-add-product-form,
+.btn-update-product-form,
+.btn-add-sales-transaction,
+.btn-add-sales-form {
+  background-color: #5C61F0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  padding: 8px;
+  font-size: 1.1rem;
+}
+
+/* Add Product Form Page, Add Sales Form Page, Update Product Form*/
+.add-product-form-container,
+.update-product-form-container,
+.add-sales-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-product-form,
+.update-product-form,
+.add-sales-form {
+  display: flex;
+  flex-direction: row;
+  background-color: #ddd;
+  width: 40vw;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5%;
+  margin-left: 35%;
+  margin-right: 35%;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.add-product-form-first-column,
+.add-product-form-second-column,
+.update-product-form-first-column,
+.update-product-form-second-column,
+.add-sales-form-first-column,
+.add-sales-form-second-column {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 5px;
+}
+
+.add-product-form-first-column label,
+.add-product-form-second-column label,
+.update-product-form-first-column label,
+.update-product-form-second-column label,
+.add-sales-form-first-column label,
+.add-sales-form-second-column label {
+  padding: 5px;
+}
+
+.add-product-form-first-column input,
+.add-product-form-second-column input,
+.update-product-form-first-column input,
+.update-product-form-second-column input,
+.add-sales-form-first-column input,
+.add-sales-form-second-column input {
+  padding: 10px;
+}
+
+.btn-add-product-form,
+.btn-update-product-form,
+.btn-add-sales-form {
+  margin-top: 20px;
+}
+
+/* Error Messages */
+.email-error-message,
+.password-error-message,
+.add-product-form-error-message,
+.update-product-form-error-message,
+.add-sales-form-error-message {
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: #FF0000;
+}
